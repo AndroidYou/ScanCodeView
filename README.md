@@ -3,9 +3,11 @@
 最近在开发新项目时，使用了扫描二维码的功能，一般扫描二维码的效果是一条横线从上到下循环移动，这次却换成了网格图片。网上的大多数第三方库实现类似效果时 网格图片被拉伸变形。为了实现效果，只能动手写。
 
 横线效果
+![image](https://github.com/AndroidYou/ScanCodeView/assets/67728159/66cf5f88-539a-43ea-a9db-4c362436da14)
 
 
 网格效果
+![image](https://github.com/AndroidYou/ScanCodeView/assets/67728159/4bc2c67b-f361-424f-92fa-2344ab0b76f3)
 
 
 基础属性
@@ -69,6 +71,7 @@ scan_border_color	扫描框四个边角线的颜色
 
     }
 将阴影部分分为四块，使用canvas.drawRect分别绘制。
+![image](https://github.com/AndroidYou/ScanCodeView/assets/67728159/ec26cab8-d2f0-4957-8a58-2a4772b3973b)
 
 绘制边框线
 
@@ -154,4 +157,8 @@ scan_border_color	扫描框四个边角线的颜色
             Bitmap.createScaledBitmap(mLineBitmap!!, mScanWidth, scaleHeight.toInt(), true)
 
 使用时，只需传入需要的扫描图片即可。
+![image](https://github.com/AndroidYou/ScanCodeView/assets/67728159/a504df38-55e5-42fb-b04e-a04f08ff25c9)
+![image](https://github.com/AndroidYou/ScanCodeView/assets/67728159/55964004-0d99-4333-a9e6-f155d3cb466a)
+
+
 
