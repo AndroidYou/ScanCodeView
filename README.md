@@ -8,6 +8,7 @@
 
 
 网格效果
+
 ![1705385452242](https://github.com/AndroidYou/ScanCodeView/assets/67728159/3e0d5703-9ab2-432a-9f1b-1e9d47f60fe5)
 
 
