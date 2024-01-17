@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <declare-styleable name="ScanCodeView">
+        <attr name="scan_image" format="reference"/>
+        <attr name="scan_duration" format="integer"/>
+        <attr name="scan_width" format="dimension|reference"/>
+        <attr name="scan_bg_color" format="color|reference"/>
+        <attr name="scan_rect_width" format="dimension|reference"/>
+        <attr name="scan_rect_color" format="color|reference"/>
+        <attr name="scan_border_width" format="dimension|reference"/>
+        <attr name="scan_border_length" format="dimension|reference"/>
+        <attr name="scan_border_color" format="color|reference"/>
+    </declare-styleable>
+
+</resources>
