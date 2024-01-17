@@ -3,11 +3,12 @@
 最近在开发新项目时，使用了扫描二维码的功能，一般扫描二维码的效果是一条横线从上到下循环移动，这次却换成了网格图片。网上的大多数第三方库实现类似效果时 网格图片被拉伸变形。为了实现效果，只能动手写。
 
 横线效果
-![image](https://github.com/AndroidYou/ScanCodeView/assets/67728159/66cf5f88-539a-43ea-a9db-4c362436da14)
+
+![1705385477240](https://github.com/AndroidYou/ScanCodeView/assets/67728159/b2ac0ae5-522e-4b23-b617-05db66f633fa)
 
 
 网格效果
-![image](https://github.com/AndroidYou/ScanCodeView/assets/67728159/4bc2c67b-f361-424f-92fa-2344ab0b76f3)
+![1705385452242](https://github.com/AndroidYou/ScanCodeView/assets/67728159/3e0d5703-9ab2-432a-9f1b-1e9d47f60fe5)
 
 
 基础属性
